@@ -25,7 +25,7 @@ body {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.2;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -34,7 +34,7 @@ body {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.2;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2e2f42;
@@ -51,6 +51,9 @@ body {
 .menu-link:focus {
     color: #404bbf;
 }
+.addres-font-style {
+font-size: normal;
+}
 .address-link {
     font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -65,6 +68,9 @@ body {
 .address-link-tel:focus
  {
     color:#404bbf;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .address-link-mail {
     color: inherit;
@@ -79,7 +85,7 @@ body {
 .text-hero {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -97,18 +103,22 @@ body {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4d5ae5;
 }
+.btc-hero:hover,
+.btc-hero:focus {
+    color: #404BBF;
+}
 /*======== /Styles hero ======== */
 
 
 /*======== Styles Section1 ======== */
-         .Section1-text-h3 {
+         .section-one-h {
              font-weight: 500;
              font-size: 20px;
              line-height: 1.2;
              letter-spacing: 0.02em;
              color: #2e2f42;
          }
-         .text-section1 {
+         .text-section-one {
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 1.5;
@@ -119,19 +129,19 @@ body {
 
 
 /*======== Styles Section2 ======== */
-         .Section2-fonts {
+         .section-two-fonts {
             background: #f4f4fd;
          }
-         .Section2-text-h2 {
+         .section-two-text-h-two {
                 font-weight: 700;
                 font-size: 36px;
-                line-height: 1.1;
+                line-height: 1.11;
                 letter-spacing: 0.02em;
                 text-transform: capitalize;
                 text-align: center;
                 color: #2e2f42;
          }
-         .Section2-text-h3 {
+         .section-two-text-h-three {
                 font-weight: 500;
                 font-size: 20px;
                 line-height: 1.2;
@@ -139,7 +149,7 @@ body {
                 text-align: center;
                 color: #2e2f42;
          }
-         .text-section2 {
+         .text-section-two {
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 1.5;
@@ -153,7 +163,7 @@ body {
 
 
 /*======== Styles Section3 ======== */
-                 .Section3-text-h2 {
+                 .section-three-text-h-two {
                         font-weight: 700;
                         font-size: 36px;
                         line-height: 1.1;
@@ -163,7 +173,7 @@ body {
                         color: #2e2f42;
                  }
         
-                 .Section3-text-h3 {
+                 .section-three-text-h-three {
                         font-weight: 500;
                         font-size: 20px;
                         line-height: 1.2;
@@ -171,7 +181,7 @@ body {
                         color: #2e2f42;
                  }
         
-                 .text-section3 {
+                 .text-section-three {
                         font-weight: 400;
                         font-size: 16px;
                         line-height: 1.5;
@@ -188,7 +198,7 @@ body {
                     font-family: "Raleway", sans-serif;
                         font-weight: 700;
                         font-size: 18px;
-                        line-height: 1.16667;
+                        line-height: 1.17;
                         letter-spacing: 0.03em;
                         text-transform: uppercase;
                         color: #4d5ae5;
@@ -202,7 +212,7 @@ body {
                         text-transform: uppercase;
                         color: #f4f4fd;
                 }
-                .footer-text-h3 {
+                .footer-text-h-three {
                         font-weight: 400;
                         font-size: 16px;
                         line-height: 1.5;
