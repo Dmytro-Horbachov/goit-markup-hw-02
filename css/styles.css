@@ -53,17 +53,15 @@ body {
 .addres-font-style {
 font-style: normal;
 }
-.address-link-mail,
-.address-link-tel {
+.address-link
+ {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
-.address-link-mail:hover,
-.address-link-mail:focus,
-.address-link-tel:hover,
-.address-link-tel:focus
+.address-link:hover,
+.address-link:focus
 {
     color:#404bbf;
 }
