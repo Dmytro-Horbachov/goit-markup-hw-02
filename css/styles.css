@@ -14,7 +14,7 @@ img {
 }
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
     background: #fff;
 }
 /*======== /Common styles ======== */
@@ -52,9 +52,10 @@ body {
     color: #404bbf;
 }
 .addres-font-style {
-font-size: normal;
+font-style: normal;
 }
-.address-link {
+.address-link-mail,
+.address-link-tel {
     font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
@@ -66,14 +67,8 @@ font-size: normal;
 .address-link-mail:focus,
 .address-link-tel:hover,
 .address-link-tel:focus
- {
+{
     color:#404bbf;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.address-link-mail {
-    color: inherit;
 }
 /*======== /Styles Top Line ======== */
 
@@ -101,11 +96,11 @@ font-size: normal;
 }
 .btc-hero {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #4d5ae5;
+    background: #4d5ae5;
 }
 .btc-hero:hover,
 .btc-hero:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 /*======== /Styles hero ======== */
 
@@ -140,6 +135,9 @@ font-size: normal;
                 text-transform: capitalize;
                 text-align: center;
                 color: #2e2f42;
+         }
+         .section-two-background {
+        background:#FFFFFF;
          }
          .section-two-text-h-three {
                 font-weight: 500;
