@@ -1,0 +1,213 @@
+/*======== Common styles ======== */
+ul, ol {
+list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    cursor: pointer;
+}
+img {
+    display: block;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2e2f42;
+    background: #fff;
+}
+/*======== /Common styles ======== */
+
+
+/*======== Styles Top Line ======== */
+.logo {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+.logo-color {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2e2f42;
+}
+.menu-link {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #404bbf;
+}
+.address-link {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.address-link-mail:hover,
+.address-link-mail:focus,
+.address-link-tel:hover,
+.address-link-tel:focus
+ {
+    color:#404bbf;
+}
+.address-link-mail {
+    color: inherit;
+}
+/*======== /Styles Top Line ======== */
+
+
+/*======== Styles hero ======== */
+.styles-hero {
+    background: #2e2f42;
+}
+.text-hero {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.btc-hero {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+.btc-hero {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background: #4d5ae5;
+}
+/*======== /Styles hero ======== */
+
+
+/*======== Styles Section1 ======== */
+         .Section1-text-h3 {
+             font-weight: 500;
+             font-size: 20px;
+             line-height: 1.2;
+             letter-spacing: 0.02em;
+             color: #2e2f42;
+         }
+         .text-section1 {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                color: #434455;
+         }
+/*======== /Styles Section1 ======== */
+
+
+/*======== Styles Section2 ======== */
+         .Section2-fonts {
+            background: #f4f4fd;
+         }
+         .Section2-text-h2 {
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 1.1;
+                letter-spacing: 0.02em;
+                text-transform: capitalize;
+                text-align: center;
+                color: #2e2f42;
+         }
+         .Section2-text-h3 {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 1.2;
+                letter-spacing: 0.02em;
+                text-align: center;
+                color: #2e2f42;
+         }
+         .text-section2 {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                text-align: center;
+                color: #434455;
+         }
+
+
+/*======== /Styles Section2 ======== */
+
+
+/*======== Styles Section3 ======== */
+                 .Section3-text-h2 {
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 1.1;
+                        letter-spacing: 0.02em;
+                        text-transform: capitalize;
+                        text-align: center;
+                        color: #2e2f42;
+                 }
+        
+                 .Section3-text-h3 {
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 1.2;
+                        letter-spacing: 0.02em;
+                        color: #2e2f42;
+                 }
+        
+                 .text-section3 {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 1.5;
+                        letter-spacing: 0.02em;
+                        color: #434455;
+                 }
+/*======== /Styles Section3 ======== */
+
+/*======== Styles footer ======== */
+                .footer-background {
+                    background: #2e2f42;
+                }
+                .logo-footer {
+                    font-family: "Raleway", sans-serif;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 1.16667;
+                        letter-spacing: 0.03em;
+                        text-transform: uppercase;
+                        color: #4d5ae5;
+                }
+                .logo-color-footer {
+                    font-family: "Raleway", sans-serif;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 1.16667;
+                        letter-spacing: 0.03em;
+                        text-transform: uppercase;
+                        color: #f4f4fd;
+                }
+                .footer-text-h3 {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 1.5;
+                        letter-spacing: 0.02em;
+                        color: #f4f4fd;
+                 }
+               
+/*======== /Styles footer ======== */
