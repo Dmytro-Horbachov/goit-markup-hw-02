@@ -42,7 +42,6 @@ body {
 .menu-link,
 .menu-item
 {
-    font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -58,8 +57,6 @@ font-style: normal;
 }
 .address-link-mail,
 .address-link-tel {
-    font-family: "Roboto", sans-serif;
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
