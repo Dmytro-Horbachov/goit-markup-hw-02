@@ -39,7 +39,9 @@ body {
         text-transform: uppercase;
         color: #2e2f42;
 }
-.menu-link {
+.menu-link,
+.menu-item
+{
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -82,7 +84,6 @@ font-style: normal;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
 }
 
@@ -95,7 +96,6 @@ font-style: normal;
     color: #fff;
 }
 .btc-hero {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
 }
 .btc-hero:hover,
@@ -133,18 +133,19 @@ font-style: normal;
                 line-height: 1.11;
                 letter-spacing: 0.02em;
                 text-transform: capitalize;
-                text-align: center;
                 color: #2e2f42;
          }
          .section-two-background {
         background:#FFFFFF;
+         }
+         .foto-background {
+            background-color: #FFFFFF;
          }
          .section-two-text-h-three {
                 font-weight: 500;
                 font-size: 20px;
                 line-height: 1.2;
                 letter-spacing: 0.02em;
-                text-align: center;
                 color: #2e2f42;
          }
          .text-section-two {
@@ -152,7 +153,6 @@ font-style: normal;
                 font-size: 16px;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
-                text-align: center;
                 color: #434455;
          }
 
@@ -167,7 +167,6 @@ font-style: normal;
                         line-height: 1.1;
                         letter-spacing: 0.02em;
                         text-transform: capitalize;
-                        text-align: center;
                         color: #2e2f42;
                  }
         
